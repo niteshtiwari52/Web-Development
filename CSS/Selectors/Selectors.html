@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/selectors.css" /> -->
+    <style>
+      /* Element selector */
+      body {
+        background-color: lightgrey;
+      }
+      /* class selectors */
+      .red {
+        color: red;
+      }
+      /* Id selecotrs */
+      #pid {
+        background-color: yellow;
+        color: green;
+      }
+      /* contextual selectors */
+      div p {
+        background-color: yellow;
+        color: green;
+      }
+      /* Group selectors */
+      h1,
+      h2,
+      h3 {
+        color: maroon;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>CSS</h1>
+    <h2>Selectors</h2>
+    <h3>Grouping</h3>
+    <div>
+      <p class="red">Paragraph1</p>
+      <p class="red">Paragraph2</p>
+    </div>
+    <p id="pid">Paragraph3</p>
+    <p>Paragraph4</p>
+  </body>
+</html>

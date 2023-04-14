@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      /* element selector */
+      body {
+        background-color: lightgray;
+      }
+      h3 {
+        color: blue;
+      }
+      p {
+        /* background-color: rgb(215, 208, 75); */
+        color: red;
+      }
+
+      /* class selector */
+      .element {
+        color: green;
+      }
+      /* Id Selector */
+      #E-3 {
+        color: red;
+        background-color: rgb(94, 234, 94);
+      }
+      #E-4 {
+        background-color: rgb(231, 107, 107);
+        color: yellow;
+      }
+      /* contextual selector */
+
+      div p {
+        color: blueviolet;
+        background-color: antiquewhite;
+      }
+      /* Grouping selector */
+      h1,
+      h3 {
+        background-color: aqua;
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Types of selectors</h1>
+    <h3>Element Selecto</h3>
+
+    <p class="element">Element-one by class</p>
+    <p class="element">Element-two</p>
+    <p id="E-3">Element-three</p>
+    <p id="E-4">Element-four</p>
+
+    <h3>Id Selector</h3>
+    <div>
+      <p class="element">ID-one</p>
+      <p class="element">ID-two</p>
+      <p id="I-3">ID-three</p>
+      <p id="I-4">ID-four</p>
+    </div>
+
+    <h3>Class Selector</h3>
+    <p class="element">class-one</p>
+    <p class="element">class-two</p>
+    <p id="C-3">class-three</p>
+    <p id="C-4">class-four</p>
+
+    <h3>Contextual Selector</h3>
+    <p class="element">contextual-one</p>
+    <p class="element">contextual-two</p>
+    <p id="CON-3">contextual-three</p>
+    <p id="CON-4">contextual-four</p>
+
+    <h3>Grouping Selector</h3>
+    <p class="element">Grouping-one</p>
+    <p class="element">Grouping-two</p>
+    <p id="G-3">Grouping-three</p>
+    <p id="G-4">Grouping-four</p>
+
+    <h3>Inheritance selectors</h3>
+    <p class="element">Inheritance-one</p>
+    <p class="element">Inheritance-two</p>
+    <p id="Inheri-3">Inheritance-three</p>
+    <p id="Inhrei-4">Inheritance-four</p>
+
+    <h3>Pseudo Selectors</h3>
+    <p class="element">Pseudo-one</p>
+    <p class="element">Pseudo-two</p>
+    <p id="P-3">Pseudo-three</p>
+    <p id="P-4">Pseudo-four</p>
+  </body>
+</html>
